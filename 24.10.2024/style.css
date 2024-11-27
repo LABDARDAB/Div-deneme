@@ -1,0 +1,39 @@
+*{margin: 0;}
+.baslık {
+  display: flex; /* Flexbox ile düzenleme */
+  justify-content: space-between; /* Solda ve sağda yerleşim */
+  align-items: center; /* Dikey hizalama */
+  padding: 10px; /* İçerik için boşluk */
+  background-color: coral;
+  height: 25px;
+  color: white;
+}
+
+.title {
+  text-align: left; /* Başlığı sola hizala */
+}
+
+.links a {
+  color: white;
+  margin-left: 15px; /* Bağlantılar arasında boşluk */
+  text-align: right; /* Bağlantıları sağa hizala */
+  text-decoration: none;
+  font-size: medium;
+}
+.orta{
+  background-color: darkslateblue;
+  height: 40vh;
+  font-size: x-large;
+  margin: 0px;
+}
+.alt{
+
+  color: black;
+  background-color: coral;
+  height: 80px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
